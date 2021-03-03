@@ -1,4 +1,7 @@
 language: python
 script:
   - python3 -m tests
+deploy:
+  - python3 -m app
+
 
